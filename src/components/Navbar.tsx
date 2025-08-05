@@ -40,12 +40,12 @@ const Navbar = () => {
               <Smile className="h-8 w-8 text-dental-600" />
             </div>
             <span className="text-dental-800 text-2xl font-bold">
-              <span className="text-dental-600">Smile</span> Bright Dental
+              <span className="text-dental-600">Glow </span>Smile Dental
             </span>
           </div>
           
           <div className="hidden md:flex items-center space-x-8">
-            {['Home', 'Services', 'About Us', 'Our Doctors', 'Testimonials', 'Contact'].map((item, index) => (
+            {['Home', 'Services', 'About', 'Doctors', 'Testimonials', 'Contact'].map((item, index) => (
               <a 
                 key={index}
                 href={`#${item.toLowerCase().replace(' ', '-')}`} 
