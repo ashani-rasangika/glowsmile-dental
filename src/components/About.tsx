@@ -15,12 +15,12 @@ const About = () => {
         </div>
         <div className="md:w-1/2">
           <h2 className="text-3xl md:text-4xl font-bold text-dental-800 mb-4">About Smile Bright Dental</h2>
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-600 mb-6 text-justify">
             Since 2005, Smile Bright Dental has been providing exceptional dental care to patients of all ages. 
             Our modern facility is equipped with state-of-the-art technology, ensuring that you receive the 
             highest quality treatment in a comfortable environment.
           </p>
-          <p className="text-gray-600 mb-6">
+          <p className="text-gray-600 mb-6 text-justify">
             Our team of experienced dentists and dental hygienists are committed to continuing education, 
             staying current with the latest advancements in dental techniques and technologies. We believe 
             in personalized care, tailoring our approach to meet your unique needs and preferences.
