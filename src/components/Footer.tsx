@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Smile Bright Dental</h3>
+            <h3 className="text-xl font-bold mb-4">GlowSmile Dental</h3>
             <p className="text-dental-100 mb-4">
               Providing exceptional dental care for the whole family in a comfortable, friendly environment.
             </p>
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-dental-700 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-dental-100">© {currentYear} Smile Bright Dental. All rights reserved.</p>
+          <p className="text-dental-100">© {currentYear} GlowSmile Dental. All rights reserved.</p>
           <div className="mt-4 md:mt-0">
             <ul className="flex space-x-6">
               <li><a href="#" className="text-dental-100 hover:text-white text-sm">Privacy Policy</a></li>
