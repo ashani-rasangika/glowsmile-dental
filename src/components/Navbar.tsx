@@ -38,14 +38,23 @@ const Navbar = () => {
           <div className="flex items-center">
             {/* Logo */}
             <div className="flex items-center mr-2">
-              <img
-                src="https://i.ibb.co/ynJhT4M4/dental2.png"
-                alt="Logo"
-                className="h-12 w-12 mr-2 rounded-full shadow-lg transition-transform transform hover:scale-105"
-              />
+              <button
+                onClick={() => {
+                  document
+                    .getElementById("home")
+                    ?.scrollIntoView({ behavior: "smooth" });
+                }}
+                className="focus:outline-none"
+              >
+                <img
+                  src="https://i.ibb.co/ynJhT4M4/dental2.png"
+                  alt="Logo"
+                  className="h-12 w-12 mr-2 rounded-full shadow-lg transition-transform transform hover:scale-105 cursor-pointer"
+                />
+              </button>
             </div>
             <span className="text-dental-800 text-2xl font-bold">
-              <span className="text-dental-600 font-serif italic">Glow </span>
+              <span className="text-dental-600 font-serif italic">Glow</span>
               <span className="font-serif italic">Smile Dental</span>
             </span>
           </div>

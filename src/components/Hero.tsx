@@ -42,9 +42,12 @@ const Hero = () => {
                 className="w-full h-auto"
               />
             </div>
-            <div className="absolute -bottom-6 -right-6 bg-dental-100 rounded-lg p-4 shadow-md border border-dental-200 hidden md:block">
+            <div
+              className="absolute -bottom-6 -right-6 bg-dental-100 rounded-lg p-4 shadow-md border border-dental-200 hidden md:block 
+    transition-all duration-300 hover:scale-105 hover:shadow-lg hover:bg-dental-200"
+            >
               <div className="flex items-center gap-3">
-                <div className="bg-dental-500 rounded-full p-2">
+                <div className="bg-dental-500 rounded-full p-2 transition-transform duration-300 hover:rotate-6">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
