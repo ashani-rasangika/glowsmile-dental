@@ -33,7 +33,7 @@ const Navbar = () => {
           : "bg-white py-4"
       )}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             {/* Logo */}
@@ -62,7 +62,7 @@ const Navbar = () => {
               <a
                 key={index}
                 href={`#${item.toLowerCase().replace(" ", "-")}`}
-                className="text-gray-700 hover:text-dental-600 relative group transition-colors"
+                className="text-lg text-gray-700 hover:text-dental-600 relative group transition-colors"
               >
                 {item}
                 <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-dental-500 transition-all group-hover:w-full"></span>
@@ -71,7 +71,7 @@ const Navbar = () => {
           </div>
 
           <div className="hidden md:flex items-center">
-            <Button className="bg-dental-600 hover:bg-dental-700 shadow-lg shadow-dental-200/50 transition-all hover:-translate-y-0.5">
+            <Button className="text-lg bg-dental-600 hover:bg-dental-700 shadow-lg shadow-dental-200/50 transition-all hover:-translate-y-0.5">
               <Phone className="mr-2 h-4 w-4" />
               Book Appointment
             </Button>
