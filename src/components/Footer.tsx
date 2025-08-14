@@ -6,10 +6,17 @@ const Footer = () => {
   
   return (
     <footer className="bg-dental-800 text-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">GlowSmile Dental</h3>
+             <div className="flex items-center mb-4">
+    <img
+      src="https://i.ibb.co/ynJhT4M4/dental2.png"
+      alt="Logo"
+      className="h-10 w-10 mr-2 rounded-full shadow-sm"
+    />
+    <h3 className="text-xl font-bold">GlowSmile Dental</h3>
+  </div>
             <p className="text-dental-100 mb-4">
               Providing exceptional dental care for the whole family in a comfortable, friendly environment.
             </p>
