@@ -22,15 +22,18 @@ const Hero = () => {
             >
               Book Appointment
             </Button>
-            <a href="#services">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-dental-600 text-dental-600 hover:bg-dental-50 px-6 py-6"
-              >
-                View Services
-              </Button>
-            </a>
+            <Button
+              size="lg"
+              variant="outline"
+              className="border-dental-600 text-dental-600 hover:bg-dental-50 px-6 py-6"
+              onClick={() => {
+                document.getElementById("services")?.scrollIntoView({
+                  behavior: "smooth",
+                });
+              }}
+            >
+              View Services
+            </Button>
           </div>
         </div>
         <div className="md:w-1/2 animate-fade-in">
